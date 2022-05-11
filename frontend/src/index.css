@@ -2,6 +2,7 @@
 
 :root {
   --color-primary: rgb(20, 20, 20);
+  --color-secondary: rgb(3, 191, 181);
 }
 
 * {
