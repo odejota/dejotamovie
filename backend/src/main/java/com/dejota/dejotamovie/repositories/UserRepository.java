@@ -6,6 +6,6 @@ import com.dejota.dejotamovie.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
-	User findByEmail(String Email);
+	User findByEmail(String email);
 	
 }
