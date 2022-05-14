@@ -12,23 +12,23 @@ public class User {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long ID;
+	private Long id;
 	private String email;
 	
 	public User() {
 	}
 
-	public User(Long iD, String email) {
-		this.ID = iD;
+	public User(Long id, String email) {
+		this.id = id;
 		this.email = email;
 	}
 
 	public Long getID() {
-		return ID;
+		return id;
 	}
 
-	public void setID(Long iD) {
-		this.ID = iD;
+	public void setID(Long id) {
+		this.id = id;
 	}
 
 	public String getEmail() {
